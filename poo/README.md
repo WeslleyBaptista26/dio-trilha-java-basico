@@ -1,18 +1,23 @@
-## Getting Started
+# Projeto iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto contém a implementação de um iPhone com funcionalidades de reprodutor musical, aparelho telefônico e navegador de internet, conforme o vídeo de lançamento do iPhone de 2007.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+### Reprodutor Musical
+- `tocar()`: Inicia a reprodução da música atual.
+- `pausar()`: Pausa a reprodução da música.
+- `selecionarMusica(String musica)`: Seleciona uma música para reprodução.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Aparelho Telefônico
+- `ligar(String numero)`: Realiza uma ligação para o número especificado.
+- `atender()`: Atende uma chamada.
+- `iniciarCorreioVoz()`: Inicia o correio de voz.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Navegador na Internet
+- `exibirPagina(String url)`: Exibe a página da URL especificada.
+- `adicionarNovaAba()`: Adiciona uma nova aba no navegador.
+- `atualizarPagina()`: Atualiza a página atual.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura do Projeto
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
