@@ -19,5 +19,5 @@ Este projeto contém a implementação de um iPhone com funcionalidades de repro
 - `adicionarNovaAba()`: Adiciona uma nova aba no navegador.
 - `atualizarPagina()`: Atualiza a página atual.
 
-## Estrutura do Projeto
+
 
